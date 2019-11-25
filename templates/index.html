@@ -4,6 +4,8 @@
   </head>
   <body>
     {#{{ __tera_context }}#}
-    This is a test variable, config.extra.text: {{config.extra.test}}.
+    <b>This is a test variable: </b><p>config.extra.text: {{config.extra.test}}.</p>
+
+    <b>This is a test content: </b><p>{{section.content | safe}}.</p>
   </body>
 </html>
