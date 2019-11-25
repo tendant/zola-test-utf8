@@ -13,3 +13,4 @@ build_search_index = false
 
 [extra]
 # Put all your custom variables here
+test = "测试一下中文，This is a test!"
