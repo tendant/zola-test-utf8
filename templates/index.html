@@ -1,11 +1,14 @@
 <html>
   <head>
+    <meta charset="UTF-8">
     <title>Test</title>
   </head>
   <body>
-    {#{{ __tera_context }}#}
-    <b>This is a test variable: </b><p>config.extra.text: {{config.extra.test}}.</p>
+    {{ __tera_context }}
+    <b>This is a test variable: </b>
+    <p>config.extra.text: {{config.extra.test}}.</p>
 
-    <b>This is a test content: </b><p>{{section.content | safe}}.</p>
+    <b>This is a test content: </b>
+    <p>{{section.content | safe}}.</p>
   </body>
 </html>
